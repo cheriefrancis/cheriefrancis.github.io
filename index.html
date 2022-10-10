@@ -5,25 +5,23 @@
   <style>
     body {margin:0;}
 
-    .icon-bar {
-      width: 100%;
-      background-color: #262626;
-      overflow: auto;
-    }
+  .navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
 
-    .icon-bar a {
-      float: left;
-      width: 33.33%;
-      text-align: center;
-      padding: 12px 0;
-      transition: all 0.3s ease;
-      color: white;
-      font-size: 36px;
-    }
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-    .icon-bar a:hover {
-      background-color: #000;
-    }
+.navbar a:hover {
+  background-color: #000;
+}
 
     .active {
       background-color: goldenrod;
@@ -58,12 +56,12 @@
   </style>
   
 <body>
-  <div class="icon-bar">
-    <a class="active" href="#"><i class="fa fa-home"></i> Home</a> 
-    <a href="#"><i class="fa fa-file"></i> Projects</a> 
-    <a href="#"><i class="fa fa-address-card"></i> Contact Me</a> 
-   </div>
- </body>
+  <div class="navbar">
+    <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+    <a href="#"><i class="fa fa-fw fa-file"></i> Projects</a> 
+    <a href="#"><i class="fa fa-fw fa-address-card"></i> Contact Me</a> 
+  </div>
+</body>
  <!-- end of icon making-->
   
   <head>

@@ -8,13 +8,13 @@
   <style>
     body {margin:0;}
 
-  .tab {
+  .navbar {
   width: 100%;
   background-color: #333333;
   overflow: hidden;
 }
 
-.tab button {
+.navbar a {
   float: left;
   width: 30%;
   text-align: center;
@@ -24,20 +24,13 @@
   font-size: 17px;
 }
 
-.tab button: hover {
+.navbar a: hover {
   background-color: #000;
 }
 
-.tab button.active {
+.active {
       background-color: goldenrod;
     }
-
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: none;
-  border-top: none;
-}
    
 
   </style>
@@ -68,7 +61,7 @@
   </style>
   
 <body>
-  <div class="tab">
+  <div class="navbar">
     <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
     <a href="#"><i class="fa fa-fw fa-file"></i> Projects</a> 
     <a href="#"><i class="fa fa-fw fa-address-card"></i> Contact Me</a> 
@@ -76,7 +69,7 @@
 </body>
 
  <!-- end of icon making-->
-<div id="Home" class="tabcontent">
+<div id="Home">
   <head>
     <title> Cherié's CV Home </title>
   </head>
@@ -103,7 +96,7 @@
   </body>
 </div>
 
-<div id="Projects" class="tabcontent">
+<div id="Projects">
   <head>
     <title> Projects </title>
   </head>

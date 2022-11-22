@@ -75,7 +75,7 @@
 </body>
 
  <!-- end of icon making-->
-<div id="Home">
+<div id="Home" class="w3 container page">
   <head>
     <title> Cherié's CV Home </title>
   </head>
@@ -102,7 +102,7 @@
   </body>
 </div>
 
-<div id="main">
+<div id="projects" class="w3-container page" style="display:none">
   <article id = "projects">
     <head>
       <title> Projects </title>
@@ -113,5 +113,16 @@
     </body>
   </article>
 </div>
+  
+<script>
+function openPage(pageName) {
+  var i;
+  var x = document.getElementsByClassName("page");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(pageName).style.display = "block";  
+}
+</script>
 
 </html>

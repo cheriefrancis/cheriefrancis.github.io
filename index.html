@@ -16,6 +16,12 @@
     
   }
   
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:10px;
+  }
+  
   .item1 {
     grid-column-start:1;
     grid-column-end:3; 
@@ -89,8 +95,24 @@
           This is a high heeled shoe which was 3d printed with PLA using an ender-3. The heel is of an uncinventional
           shape since it was designed using the shape optimisation software in Fusion 360.
       </div>
-        
     </div>
+    
+    <div class="grid-container2">
+      <!-- First shoe pic -->
+      <div class="item">
+        <center>
+          <img src="shoe.png" alt="Shoe" height="190" style="border-radius:10%; width:100%"/>
+        </center>
+      </div>
+      <!-- Second shoe pic -->
+      <div class="item">
+        <center>
+          <img src="heel.png" alt="Optimised heel" height="190" style="border-radius:10%; width:100%"/>
+        </center>
+      </div>
+      
+    </div>
+    
   </div>
 
   <div id="Contact Me" class="w3-container page" style="display:none">
